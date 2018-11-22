@@ -12,7 +12,7 @@ import {ClientMiddleware} from "./middleware/client";
 // Config .Env
 const host = env.APP_HOST || "0.0.0.0";
 const port = env.APP_PORT || 3000;
-const apiPrefix = env.API_PREFIX || "/";
+const apiPrefix = env.API_PREFIX || "/api";
 // const auth = new Auth();
 
 const app = createExpressServer({
